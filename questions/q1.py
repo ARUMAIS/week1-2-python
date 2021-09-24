@@ -1,19 +1,21 @@
 print("\t"*2+"Title")
 print("Hello")
-print("Heloo World")
+print("Hello World")
 a=5
 b=12.3456789
 c=a+b
-d="A number" +b
-e=a +\
-    b +/
+#d="A number" +b #TypeError: can only concatenate str (not "float") to str
+
+e=a+\
+    b+ \
 c
-    print(a)
+
 f=2
 g=a/f
+print(a)
 print(b)
 print(c)
-print(d)
+#print(d)
 print(e)
 print(f)
 print(g)
